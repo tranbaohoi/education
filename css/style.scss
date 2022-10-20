@@ -234,6 +234,41 @@ section {
     }
 }
 
+.home {
+    padding: 0;
+
+    .slide {
+        display: flex;
+        align-items: center;
+        height: 60rem;
+        background-size: cover !important;
+
+        .content {
+            width: 60rem;
+
+            h3 {
+                @include titleText(5rem);
+                color: $white;
+            }
+
+            p {
+                @include graphText(1.6rem);
+                color: $light-white;
+                padding: 1rem;
+            }
+        }
+    }
+}
+
+.swiper-pagination-bullet-active {
+    background: $green;
+}
+
+//btn click pagination
+// .swiper-pagination-bullet {
+//     height: 1.5rem;
+//     width: 1.5rem;
+// }
 .footer {
     background: $light-green;
     padding-bottom: 10rem;
