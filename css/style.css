@@ -165,6 +165,9 @@ section {
   text-decoration: none;
   color: #0eb582;
 }
+.account-form form .btn {
+  width: 100%;
+}
 
 @media (max-width: 1200px) {
   .header {
